@@ -12,46 +12,46 @@ import clsx from "clsx";
 
 const features = [
   {
-    name: "Save Messages",
+    name: "Enregistrer les messages",
     description:
-      "Save your messages in the cloud and have them available on all your devices. You can also share them with your friends!",
+      "Enregistrez vos messages dans notre cloud et ayez-les disponibles sur tous vos appareils. Vous pouvez également les partager avec vos amis!",
     href: "/docs/save-messages",
     icon: CloudIcon,
   },
   {
-    name: "Custom Branding",
+    name: "Image de marque personnalisée",
     description:
-      "Customize your embeds with your own branding. You can even change the username and avatar of the message to your liking!",
+      "Personnalisez vos intégrations avec votre propre marque. Vous pouvez même modifier le nom d'utilisateur et l'avatar du message à votre guise!",
     href: "/docs/custom-branding",
     icon: EyeDropperIcon,
   },
   {
-    name: "Interactive Components",
+    name: "Composants interactifs",
     description:
-      "Add interactivity to your messages with buttons and select menus. You can hand out roles or send custom responses to your users!",
+      "Ajoutez de l'interactivité à vos messages avec des boutons et des menus sélectionnés. Vous pouvez attribuer des rôles ou envoyer des réponses personnalisées à vos utilisateurs !",
     href: "/docs/interactive-components",
     icon: CursorArrowRippleIcon,
   },
   {
-    name: "White Label",
+    name: "Marque blanche",
     description:
-      "Integrate your own bot into Embed Generator to change the username and avatar of responses to buttons, and select menus!",
+      "Intégrez votre propre bot dans TGP Embed pour modifier le nom d'utilisateur et l'avatar des réponses aux boutons, et sélectionnez les menus !",
     href: "/docs/white-label",
     icon: TagIcon,
     premium: true,
   },
   {
-    name: "Custom Commands",
+    name: "Commandes personnalisées",
     description:
-      "Add your own commands with custom logic and responses to Embed Generator that your server members can use!",
+      "Ajoutez vos propres commandes avec une logique et des réponses personnalisées au générateur intégré que les membres de votre serveur peuvent utiliser !",
     href: "/docs/custom-commands",
     icon: CommandLineIcon,
     premium: true,
   },
   {
-    name: "AI Assistant",
+    name: "Assistant IA",
     description:
-      "Use our powerful AI assistant to quickly draft new messages and boost your creativity!",
+      "Utilisez notre puissant assistant IA pour rédiger rapidement de nouveaux messages et booster votre créativité !",
     href: "/docs/ai-assistant",
     icon: SparklesIcon,
     premium: true,
@@ -87,7 +87,7 @@ export default function HomeFeatures(): JSX.Element {
                       href={feature.href}
                       className="text-sm font-semibold leading-6 text-indigo-400"
                     >
-                      Learn more <span aria-hidden="true">→</span>
+                      Apprendre encore plus <span aria-hidden="true">→</span>
                     </a>
                   </p>
                 </div>

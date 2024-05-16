@@ -10,11 +10,11 @@ export default function HomeHero(): JSX.Element {
         </div>
         <div className="lg:w-1/2 px-12">
           <h1 className="text-gray-100 font-bold text-6xl leading-tight mb-6">
-            The best way to create Discord embeds!
+          La meilleure façon de créer des intégrations Discord !
           </h1>
           <h2 className="text-gray-300 font-light text-lg mb-8">
-            Create embed messages for your Discord server with ease and give
-            them your own branding using webhooks.
+          Créez facilement des messages intégrés pour votre serveur Discord et donnez
+            leur votre propre marque à l'aide de webhooks.
           </h2>
           <div className="flex items-center">
             <a
@@ -22,7 +22,7 @@ export default function HomeHero(): JSX.Element {
               href="/app"
             >
               <SparklesIcon className="h-5 w-5" />
-              <div className="text-white">Open App</div>
+              <div className="text-white">Ouvrir application</div>
             </a>
           </div>
         </div>

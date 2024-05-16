@@ -8,7 +8,7 @@ export default function HomeHeader(): JSX.Element {
         <div className="items-center flex space-x-4">
           <img src="/img/logo.svg" alt="" className="rounded-full" />
           <div className="font-bold text-xl hidden lg:block text-gray-200 tracking-tight">
-            Embed Generator
+            TGP Embed
           </div>
         </div>
         <div className="items-center flex space-x-5 md:space-x-8">
@@ -17,14 +17,14 @@ export default function HomeHeader(): JSX.Element {
               className="hover:text-white text-gray-300 hidden md:block"
               href="/source"
             >
-              Source Code
+              Code source
             </a>
             <div className="h-1 w-1 bg-gray-400 rounded-full hidden md:block"></div>
             <a
               className="hover:text-white text-gray-300 hidden sm:block"
               href="/discord"
             >
-              Discord Server
+              Serveur Discord
             </a>
             <div className="h-1 w-1 bg-gray-400 rounded-full hidden sm:block"></div>
             <a className="hover:text-white text-gray-300" href="/docs">
@@ -37,7 +37,7 @@ export default function HomeHeader(): JSX.Element {
             href="/app"
           >
             <SparklesIcon className="h-5 w-5" />
-            <div className="text-white">Open App</div>
+            <div className="text-white">Ouvrir application</div>
           </a>
         </div>
       </div>
